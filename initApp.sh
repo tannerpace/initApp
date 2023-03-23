@@ -38,10 +38,10 @@ git commit -m "Add README.md"
 
 # Create a new TypeScript app with Turbo Repo
 
-yarn dlx create-turbo@latest $app_name
+pnpm dlx create-turbo@latest
 
 # Install required packages
-yarn add react-query zod @mui/material @emotion/react @emotion/styled axios zod @mui/icons-material @mui/lab @mui/x-data-grid @mui/x-data-grid-pro @mui/x-data-grid-generator 
+pnpm add react-query zod @mui/material @emotion/react @emotion/styled axios zod @mui/icons-material @mui/lab @mui/x-data-grid @mui/x-data-grid-pro @mui/x-data-grid-generator 
 
 # Add a new remote to the local repository
 git remote add origin 
@@ -56,10 +56,10 @@ git commit -m "Add $app_name"
 git push -u origin main
 
 # Install the dependencies
-yarn
+pnpm
 
 # Start the app
-yarn start
+pnpm run dev
 
 # Open the app in the browser
 open http://localhost:3000
