@@ -59,7 +59,8 @@ git push -u origin main
 pnpm
 
 # Start the app
-pnpm run dev
+cd $app_name
+pnpm dlx turbo login
 
 # Open the app in the browser
 open http://localhost:3000
